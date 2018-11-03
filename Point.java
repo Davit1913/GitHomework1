@@ -43,4 +43,8 @@ public class Point {
 	boolean contains(Point p) {
 		return this.x == p.x && this.y == p.y;
 	}
+
+	public String toString() {
+		return "{P.x = " + this.getX() + ", " + "P.y = " + this.getY() + "}";
+	}
 }
